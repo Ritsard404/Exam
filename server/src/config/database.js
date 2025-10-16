@@ -7,9 +7,15 @@ const isProduction = process.env.NODE_ENV === "production";
 
 const sequelize = isProduction
   ? new Sequelize(process.env.DATABASE_URL, {
-      dialect: "postgres",
-      protocol: "postgres",
-      logging: false, // disable SQL logs in production
+      dialect: 'postgres',
+      protocol: 'postgres',
+      logging: false,
+      dialectOptions: {
+        ssl: {
+          require: true,          // enforce SSL
+          rejectUnauthorized: false, // allow self-signed certs
+        },
+      },
     })
   : new Sequelize({
       dialect: "sqlite",
