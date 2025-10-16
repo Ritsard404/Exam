@@ -1,16 +1,4 @@
-# Exam Project - Full Stack Application
-
-A full-stack application with React + Vite frontend and Node.js + Express backend featuring user authentication with JWT.
-
----
-
-## Submission Information
-
-**GitHub Repository:** https://github.com/Ritsard404/Exam.git
-**Node Version:** v22.20.0  
-**Repository Type:** Combined (API + Web Frontend)
-
----
+# Intern - Developer - Basic Assessment Exam
 
 ## Project Structure
 
