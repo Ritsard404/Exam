@@ -1,8 +1,7 @@
 # Intern - Developer - Basic Assessment Exam
 
-'''
 Hosted Project: [https://intern-exam-rose.vercel.app/login](https://intern-exam-rose.vercel.app/login)
-'''
+
 
 ## Project Structure
 
